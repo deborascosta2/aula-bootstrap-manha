@@ -1,0 +1,109 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+  </head>
+  <style>
+
+  body>
+    {
+            background: linear-gradient(135deg, #eae866 0%, #a29b4b 100%);
+            min-height: 100vh;
+        }
+        .profile-img {
+            width: 130px;
+            height: 130px;
+            object-fit: cover;
+            border: 5px solid rgb(186, 117, 26);
+        }
+    </style>
+</head>
+<body class="d-flex align-items-center justify-content-center py-5">
+
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-12 col-sm-8 col-md-6 col-lg-4">
+                
+                <!-- Início do Cartão -->
+                <div class="card shadow-lg border-0 rounded-4 overflow-hidden">
+                    
+                    <!-- Cabeçalho Visual (Banner Superior) -->
+                    <div class="bg-primary text-center pt-5 pb-4 position-relative" style="background: #c8be4e;">
+                        <img src="https://sites.cc.gatech.edu/classes/AY2016/cs4476_fall/results/proj1/html/gwright31/images/cat.bmp" class="rounded-circle profile-img shadow position-absolute start-50 translate-middle-x" style="bottom: -65px;" alt="Foto de Perfil">
+                    </div>
+                    
+                    <!-- Corpo do Cartão -->
+                    <div class="card-body pt-5 mt-4 text-center">
+                        <h4 class="card-title fw-bold mb-1">Débora Costa</h4>
+                        <p class="text-muted small mb-3">Desenvolvedor Full Stack / Designer</p>
+                        
+                        <p class="card-text text-secondary px-3 mb-4">
+                            Ajudo empresas a construírem produtos digitais modernos, escaláveis e focados na experiência do usuário.
+                            (Essa é apenas uma frase modelo, mas um dia eu chego lá)
+                        </p>
+                        
+                        <!-- Ícones de Redes Sociais -->
+                        <div class="d-flex justify-content-center gap-3 mb-4">
+                            <a href="https://br.linkedin.com/" class="btn btn-outline-secondary btn-sm rounded-circle p-0" style="width: 40px; height: 40px; display: grid; place-items: center;">
+                                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQs1ZT1ik9M_h-uKtdxTq6zYsk1s5N-5loNfFzp0noRRw&s=10" height="40" width="40" class="rounded-circle img-fluid" alt="Foto de Perfil">
+                            </a>
+                            <a href="https://github.com/deborascosta2" class="btn btn-outline-secondary btn-sm rounded-circle p-0" style="width: 40px; height: 40px; display: grid; place-items: center;"> <img src="https://cdn-icons-png.flaticon.com/256/25/25231.png"height="40" width="40" class="rounded-circle img-fluid" alt="Foto de Perfil"></a>
+                            <a href="https://www.instagram.com/deboracosta_26?stkn=aGhyOHlhODF1ZDl5" class="btn btn-outline-secondary btn-sm rounded-circle" style="width: 40px; height: 40px; display: grid; place-items: center;"></a> <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS7MYIoNhAEOYMr77uZZtYlTFFB540o1nVXgJU4V7Bq9Q&s=10"height="40" width="40" class="rounded-circle img-fluid" alt="Foto de Perfil"></a>
+                        </div>
+                        
+                        <hr class="text-muted opacity-25">
+                        
+                        <!-- Lista de Informações de Contato -->
+                        <div class="text-start px-2 mb-4">
+                            <div class="d-flex align-items-center mb-3">
+                                <div class="bg-light p-2 rounded-3 me-3 text-primary"><i class="fas fa-envelope fa-fw"></i></div>
+                                <div>
+                                    <small class="text-muted d-block">E-mail</small>
+                                    <a href="mailto:seu-email@dominio.com" class="text-decoration-none text-dark fw-semibold">deboracosta@exemplo.com</a>
+                                </div>
+                            </div>
+                            
+                            <div class="d-flex align-items-center mb-3">
+                                <div class="bg-light p-2 rounded-3 me-3 text-success"><i class="fab fa-whatsapp fa-fw"></i></div>
+                                <div>
+                                    <small class="text-muted d-block">WhatsApp</small>
+                                    <a href="https://wa.me" target="_blank" class="text-decoration-none text-dark fw-semibold">(85) 40028922</a>
+                                </div>
+                            </div>
+
+                            <div class="d-flex align-items-center">
+                                <div class="bg-light p-2 rounded-3 me-3 text-info"><i class="fas fa-globe fa-fw"></i></div>
+                                <div>
+                                    <small class="text-muted d-block">Website</small>
+                                    <a href="#" target="_blank" class="text-decoration-none text-dark fw-semibold">://meusite.com.br</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Botão de Ação Principal -->
+                        <div class="d-grid">
+                            <a href="mailto:seu-email@dominio.com" class="btn btn-primary btn-lg rounded-3 fw-bold shadow-sm" style="background: #c4c84e; border: none;">
+                                Entrar em Contato
+                            </a>
+                        </div>
+                        
+                    </div>
+                </div>
+                <!-- Fim do Cartão -->
+
+            </div>
+        </div>
+    </div>
+
+    <!-- Bootstrap JS (Opcional para interações como tooltips/modais) -->
+    <script src="https://jsdelivr.net"></script>
+</body>
+</html>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.min.js" integrity="sha384-G/EV+4j2dNv+tEPo3++6LCgdCROaejBqfUeNjuKAiuXbjrxilcCdDz6ZAVfHWe1Y" crossorigin="anonymous"></script>
+  </body>
+</html>
